@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/STREAMIT">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage></HomePage>}></Route>
